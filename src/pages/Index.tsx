@@ -10,8 +10,8 @@ const Index = () => {
         <Sidebar />
       </div>
       
-      {/* Dotted vertical divider - Hidden on mobile */}
-      <div className="hidden md:block fixed left-[440px] top-0 h-full w-px border-l border-dashed border-gray-300"></div>
+      {/* Dotted vertical divider - Visible on all screens */}
+      <div className="fixed left-[440px] top-0 h-full w-px border-l border-dashed border-gray-300"></div>
       
       {/* Gallery - Full width on mobile, offset on desktop */}
       <div className="w-full md:ml-[440px] md:flex-1">

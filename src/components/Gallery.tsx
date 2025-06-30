@@ -1,9 +1,9 @@
 export const Gallery = () => {
   return (
     <div className="bg-gray-50 p-2 md:p-4">
-      <div className="max-w-7xl mx-auto space-y-4 md:space-y-8">
+      <div className="max-w-7xl mx-auto space-y-2 md:space-y-4">
         {/* Psychology section */}
-        <div className="bg-white rounded-2xl p-0 md:p-0 shadow-sm overflow-hidden aspect-[4/3] flex items-center justify-center">
+        <div className="bg-white rounded-2xl p-0 md:p-0 shadow-sm overflow-hidden aspect-[4/3] flex items-center justify-center mt-0">
           <img 
             src="/my-image-01.png" 
             alt="Gallery Visual" 
