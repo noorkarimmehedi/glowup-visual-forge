@@ -48,6 +48,7 @@ export const Gallery = () => {
           </div>
           <div className="flex items-center gap-3 md:gap-4">
             <div className="text-2xl md:text-4xl font-bold text-navy">Parts</div>
+            <div className="text-xs text-gray-500">Made in Framer</div>
           </div>
         </div>
       </div>
