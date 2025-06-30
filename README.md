@@ -1,5 +1,9 @@
 # Welcome to your Lovable project
 
+## Deployment
+
+This project is automatically deployed via Vercel on every push to the main branch.
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/665dfa3d-8959-48d8-a5a9-e770621df1cb
