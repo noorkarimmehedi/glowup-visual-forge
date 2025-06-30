@@ -32,15 +32,14 @@ export const Sidebar = () => {
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-5 h-5 text-gray-900" />
           <h1 className="text-xl font-normal text-gray-900">
-            makeover <span className="text-gray-400">of parts.ifs.tools</span>
+            makeover <span className="text-gray-400">of parts.its.tools</span>
           </h1>
         </div>
 
         {/* Why section */}
         <div className="mb-4">
           <div className="flex items-start gap-2 mb-2">
-            <div className="w-1.5 h-1.5 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
-            <h2 className="text-base font-medium text-gray-900 font-geist-mono">Why?</h2>
+            <h2 className="text-base font-medium text-gray-900 font-inter flex items-center gap-2"><span className="text-gray-400">I.</span> Why?</h2>
           </div>
           <p className="text-gray-700 mb-2 font-medium text-sm font-geist-mono">You've got a great product.</p>
           <p className="text-gray-700 text-sm font-geist-mono">Let's make sure your <span className="font-bold">visuals match.</span></p>
@@ -55,8 +54,7 @@ export const Sidebar = () => {
         {/* What you will get section */}
         <div className="mb-4">
           <div className="flex items-start gap-2 mb-2">
-            <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
-            <h2 className="text-base font-medium text-gray-900 font-geist-mono">What you will get?</h2>
+            <h2 className="text-base font-medium text-gray-900 font-inter flex items-center gap-2"><span className="text-gray-400">II.</span> What you will get?</h2>
           </div>
           <div className="flex flex-col gap-2">
             {DELIVERABLES.map((option) => (
@@ -74,8 +72,7 @@ export const Sidebar = () => {
         {/* Delivery time */}
         <div className="mb-6">
           <div className="flex items-start gap-2 mb-2">
-            <div className="w-1.5 h-1.5 bg-blue-500 rounded-full mt-1.5 flex-shrink-0"></div>
-            <span className="text-sm font-medium text-gray-900 font-geist-mono">5-7 days delivery time</span>
+            <span className="text-base font-medium text-gray-900 font-inter flex items-center gap-2"><span className="text-gray-400">III.</span> 5-7 days delivery time</span>
           </div>
           <p className="text-sm text-gray-600 leading-relaxed font-geist-mono">
             Business days are Monday through Friday, excluding Poland public holidays. Due to spikes in demand, some requests could take longer than usual.

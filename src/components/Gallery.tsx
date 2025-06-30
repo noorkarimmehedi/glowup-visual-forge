@@ -1,49 +1,23 @@
 export const Gallery = () => {
   return (
-    <div className="bg-gray-50 p-4 md:p-8">
-      <div className="max-w-4xl mx-auto space-y-4 md:space-y-8">
+    <div className="bg-gray-50 p-2 md:p-4">
+      <div className="max-w-7xl mx-auto space-y-4 md:space-y-8">
         {/* Psychology section */}
-        <div className="bg-white rounded-2xl p-6 md:p-8 shadow-sm">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center mb-6 md:mb-8">
-            <div className="text-center">
-              <div className="w-16 md:w-24 h-16 md:h-24 bg-coral rounded-full mx-auto mb-4"></div>
-              <h3 className="font-medium text-gray-900 mb-2">Exile</h3>
-              <p className="text-sm text-gray-600 italic">Strong emotions, pain, attraction</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 md:w-24 h-16 md:h-24 bg-teal rounded-star mx-auto mb-4 transform rotate-12" style={{clipPath: 'polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)'}}>
-              </div>
-              <h3 className="font-medium text-gray-900 mb-2">Firefighter</h3>
-              <p className="text-sm text-gray-600 italic">Anchored stability, sense of safety, protective shield</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="w-16 md:w-24 h-16 md:h-24 bg-lavender rounded-lg mx-auto mb-4 transform rotate-45"></div>
-              <h3 className="font-medium text-gray-900 mb-2">Manager</h3>
-              <p className="text-sm text-gray-600 italic">Strategic structured thinker</p>
-            </div>
-          </div>
+        <div className="bg-white rounded-2xl p-0 md:p-0 shadow-sm overflow-hidden aspect-[4/3] flex items-center justify-center">
+          <img 
+            src="/my-image-01.png" 
+            alt="Gallery Visual" 
+            className="w-full h-full object-cover rounded-xl shadow-md"
+          />
         </div>
 
         {/* Typography showcase */}
-        <div className="bg-lavender rounded-2xl p-6 md:p-8 shadow-sm">
-          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 md:gap-8">
-            <div>
-              <div className="text-4xl md:text-6xl font-bold text-navy mb-4">Aa</div>
-              <div className="space-y-1">
-                <div className="text-sm text-navy/70">Regular</div>
-                <div className="text-lg font-medium text-navy">Medium</div>
-                <div className="text-xl font-semibold text-navy">Semibold</div>
-                <div className="text-2xl font-bold text-navy">Bold</div>
-              </div>
-            </div>
-            <div className="text-xs text-navy/60 max-w-xs">
-              <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
-              <p>abcdefghijklmnopqrstuvwxyz</p>
-              <p>0123456789#$%&@!{"}{"}</p>
-            </div>
-          </div>
+        <div className="bg-lavender rounded-2xl p-0 md:p-0 shadow-sm overflow-hidden aspect-[4/3] flex items-center justify-center">
+          <img 
+            src="/my-image-02.png" 
+            alt="Typography Visual" 
+            className="w-full h-full object-cover rounded-xl shadow-md"
+          />
         </div>
 
         {/* Quote section */}
@@ -74,7 +48,6 @@ export const Gallery = () => {
           </div>
           <div className="flex items-center gap-3 md:gap-4">
             <div className="text-2xl md:text-4xl font-bold text-navy">Parts</div>
-            <div className="text-xs text-gray-500">Made in Framer</div>
           </div>
         </div>
       </div>
