@@ -13,7 +13,7 @@ export const Sidebar = () => {
           </h1>
         </div>
 
-        {/* Typography section */}
+        {/* Typography selection */}
         <div className="mb-8">
           <p className="text-[10px] text-gray-600 mb-1">Typography selection: <span className="font-medium">Britti Sans</span>,</p>
           <p className="text-[10px] text-gray-600">
@@ -36,7 +36,10 @@ export const Sidebar = () => {
             Makeover gives your logo, site, app a glow-up that turns heads (and converts).
           </p>
         </div>
+      </div>
 
+      {/* Bottom Section */}
+      <div>
         {/* What you will get section */}
         <div className="mb-8">
           <div className="flex items-start gap-2 mb-4">
@@ -59,10 +62,7 @@ export const Sidebar = () => {
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Bottom Section */}
-      <div>
         {/* Pricing */}
         <div className="mb-6">
           <div className="flex items-baseline gap-2 mb-2">
