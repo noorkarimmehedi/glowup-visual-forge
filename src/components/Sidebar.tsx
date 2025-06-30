@@ -4,7 +4,11 @@ import { Check } from 'lucide-react';
 export const Sidebar = () => {
   return (
     <div className="h-full bg-white p-8 flex flex-col justify-between">
-      {/* Top Section */}
+      {/* Top Section - Empty for now */}
+      <div>
+      </div>
+
+      {/* Bottom Section */}
       <div>
         {/* Header */}
         <div className="mb-8">
@@ -36,10 +40,7 @@ export const Sidebar = () => {
             Makeover gives your logo, site, app a glow-up that turns heads (and converts).
           </p>
         </div>
-      </div>
 
-      {/* Bottom Section */}
-      <div>
         {/* What you will get section */}
         <div className="mb-8">
           <div className="flex items-start gap-2 mb-4">
