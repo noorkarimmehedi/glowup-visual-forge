@@ -27,7 +27,7 @@ export const Sidebar = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="w-full max-w-lg mx-auto md:max-w-none">
+      <div className="w-full max-w-lg mx-auto md:max-w-none pb-24">
         {/* Header */}
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-5 h-5 text-gray-900" />
@@ -80,7 +80,7 @@ export const Sidebar = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="sticky bottom-4 md:relative md:bottom-0">
+        <div className="fixed left-0 bottom-0 w-full px-6 md:px-8 md:pr-12 pb-6 bg-white z-50" style={{maxWidth: 'inherit'}}>
           <RainbowButton className="w-full text-sm">
             $999 - Makeover my product
           </RainbowButton>
