@@ -21,13 +21,12 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="min-h-screen md:h-full bg-white px-6 md:px-8 md:pr-12 py-8 flex flex-col justify-between">
+    <div className="min-h-screen md:h-full bg-white px-6 md:px-8 md:pr-12 py-8 flex flex-col">
       {/* Top Section - Empty for now */}
-      <div>
-      </div>
+      <div></div>
 
-      {/* Bottom Section */}
-      <div className="w-full max-w-lg mx-auto md:max-w-none pb-24">
+      {/* Main Content (scrollable if needed) */}
+      <div className="w-full max-w-lg mx-auto md:max-w-none flex-1 overflow-y-auto">
         {/* Header */}
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-5 h-5 text-gray-900" />
@@ -78,13 +77,13 @@ export const Sidebar = () => {
             Business days are Monday through Friday, excluding Poland public holidays. Due to spikes in demand, some requests could take longer than usual.
           </p>
         </div>
+      </div>
 
-        {/* CTA Button */}
-        <div className="fixed left-0 bottom-0 w-full px-6 md:px-8 md:pr-12 pb-6 bg-white z-50" style={{maxWidth: 'inherit'}}>
-          <RainbowButton className="w-full text-sm">
-            $999 - Makeover my product
-          </RainbowButton>
-        </div>
+      {/* CTA Button - fixed at the bottom for all screens */}
+      <div className="pt-4 pb-2 bg-white shadow-[0_-2px_8px_rgba(0,0,0,0.04)] sticky bottom-0 z-20 w-full">
+        <RainbowButton className="w-full text-sm">
+          $999 - Makeover my product
+        </RainbowButton>
       </div>
     </div>
   );
