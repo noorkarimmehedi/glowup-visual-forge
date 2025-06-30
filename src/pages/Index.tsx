@@ -1,11 +1,22 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { useState } from 'react';
+import { Sidebar } from '@/components/Sidebar';
+import { Gallery } from '@/components/Gallery';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen flex font-inter bg-white">
+      {/* Left Sidebar - Fixed */}
+      <div className="w-80 fixed left-0 top-0 h-full">
+        <Sidebar />
+      </div>
+      
+      {/* Dotted vertical divider */}
+      <div className="fixed left-80 top-0 h-full w-px border-l border-dashed border-gray-300"></div>
+      
+      {/* Right Gallery - Scrollable */}
+      <div className="ml-80 flex-1">
+        <Gallery />
       </div>
     </div>
   );
