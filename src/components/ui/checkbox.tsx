@@ -1,28 +1,90 @@
-import * as React from "react"
-import * as CheckboxPrimitive from "@radix-ui/react-checkbox"
-import { Check } from "lucide-react"
+import React from "react";
 
-import { cn } from "@/lib/utils"
+interface CheckboxProps {
+  checked?: boolean;
+  onChange?: (checked: boolean) => void;
+  disabled?: boolean;
+  indeterminate?: boolean;
+  children?: React.ReactNode;
+}
 
-const Checkbox = React.forwardRef<
-  React.ElementRef<typeof CheckboxPrimitive.Root>,
-  React.ComponentPropsWithoutRef<typeof CheckboxPrimitive.Root>
->(({ className, ...props }, ref) => (
-  <CheckboxPrimitive.Root
-    ref={ref}
-    className={cn(
-      "peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground",
-      className
-    )}
-    {...props}
-  >
-    <CheckboxPrimitive.Indicator
-      className={cn("flex items-center justify-center text-current")}
+const getInputClasses = (checked: boolean, disabled : boolean, indeterminate: boolean) => {
+  let className = "relative border w-4 h-4 duration-200 rounded inline-flex items-center justify-center";
+  if (disabled) {
+    if (!checked || indeterminate) {
+      className += " bg-gray-100 border-gray-500";
+      if (indeterminate) {
+        className += " stroke-gray-500"
+      } else {
+        className += " fill-gray-100 stroke-gray-100"
+      }
+    } else {
+      className += " bg-gray-600 border-gray-600 fill-gray-600 stroke-gray-100";
+    }
+
+  } else {
+    if (!checked || indeterminate) {
+      className += " bg-background-100 border-gray-700 group-hover:bg-gray-200"
+      if (indeterminate) {
+        className += " stroke-gray-700"
+      } else {
+        className += " fill-background-100 stroke-background-100 group-hover:stroke-gray-200 group-hover:fill-gray-200"
+      }
+    } else {
+      className += " bg-gray-1000 border-gray-1000";
+    }
+  }
+
+  return className;
+};
+
+export const Checkbox = ({ checked = false, onChange, disabled = false, indeterminate = false, children }: CheckboxProps) => {
+  return (
+    <label
+      className={`flex items-center cursor-pointer text-[13px] font-sans group ${disabled ? "text-gray-500" : "text-gray-1000"}`}
+      style={{ width: '100%' }}
     >
-      <Check className="h-4 w-4" />
-    </CheckboxPrimitive.Indicator>
-  </CheckboxPrimitive.Root>
-))
-Checkbox.displayName = CheckboxPrimitive.Root.displayName
-
-export { Checkbox }
+      <span className="relative inline-flex items-center justify-center w-4 h-4 flex-shrink-0">
+        <input
+          disabled={disabled}
+          type="checkbox"
+          checked={checked}
+          onChange={() => onChange && !indeterminate && onChange(!checked)}
+          className="absolute w-full h-full opacity-0 cursor-pointer z-10"
+          tabIndex={0}
+        />
+        <span className={getInputClasses(checked, disabled, indeterminate)}>
+          <svg
+            className="shrink-0 align-middle"
+            height="16"
+            viewBox="0 0 20 20"
+            width="16"
+          >
+            {indeterminate ? (
+              <line
+                stroke="#222"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="3"
+                x1="4"
+                x2="16"
+                y1="10"
+                y2="10"
+              />
+            ) : checked ? (
+              <polyline
+                points="4,11 8,15 16,6"
+                stroke="#222"
+                strokeWidth="3"
+                fill="none"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            ) : null}
+          </svg>
+        </span>
+      </span>
+      <span className="ml-2 flex-1 break-words">{children}</span>
+    </label>
+  );
+};
