@@ -21,7 +21,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="min-h-screen md:h-full bg-white px-6 md:px-8 md:pr-12 py-8 flex flex-col justify-between">
+    <div className="min-h-screen md:h-full bg-white px-6 md:px-8 md:pr-12 pt-8 pb-0 flex flex-col justify-between">
       {/* Top Section - Empty for now */}
       <div>
       </div>
@@ -80,9 +80,12 @@ export const Sidebar = () => {
         </div>
 
         {/* CTA Button */}
-        <RainbowButton className="w-full text-sm font-inter mt-4">
-          $999 - Makeover my product
-        </RainbowButton>
+        <div className="relative -mx-2 md:mx-0 md:mb-6">
+          <RainbowButton className="w-full text-sm font-inter mt-4 px-20 md:px-10">
+            $999 - Makeover my product
+          </RainbowButton>
+          <div className="block md:hidden h-px border-t border-dashed border-gray-300 mt-2 mb-3 -mx-6"></div>
+        </div>
       </div>
     </div>
   );
