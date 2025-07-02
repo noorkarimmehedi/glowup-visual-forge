@@ -21,7 +21,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="min-h-screen md:h-full bg-white px-6 md:px-8 md:pr-12 py-8 flex flex-col justify-between">
+    <div className="font-open-runde min-h-screen md:h-full bg-white pl-4 pr-6 md:px-8 md:pr-12 py-8 flex flex-col justify-between">
       {/* Top Section - Empty for now */}
       <div>
       </div>
@@ -39,14 +39,14 @@ export const Sidebar = () => {
         {/* Why section */}
         <div className="mb-4">
           <div className="flex items-start gap-2 mb-2">
-            <h2 className="text-base font-medium text-gray-900 font-inter flex items-center gap-2"><span className="text-gray-400">I.</span> Why?</h2>
+            <h2 className="text-base font-medium text-gray-900 flex items-center gap-2"><span className="text-gray-400">I.</span> Why?</h2>
           </div>
-          <p className="text-gray-700 mb-2 font-medium text-sm font-geist-mono">You've got a great product.</p>
-          <p className="text-gray-700 text-sm font-geist-mono">Let's make sure your <span className="font-bold">visuals match.</span></p>
+          <p className="text-gray-700 mb-2 font-medium text-sm">You've got a great product.</p>
+          <p className="text-gray-700 text-sm">Let's make sure your <span className="font-bold">visuals match.</span></p>
         </div>
 
         <div className="mb-4">
-          <p className="text-gray-700 text-sm leading-relaxed font-geist-mono">
+          <p className="text-gray-700 text-sm leading-relaxed">
             Makeover gives your logo, site, app a glow-up that turns heads (and converts).
           </p>
         </div>
@@ -54,7 +54,7 @@ export const Sidebar = () => {
         {/* What you will get section */}
         <div className="mb-4">
           <div className="flex items-start gap-2 mb-2">
-            <h2 className="text-base font-medium text-gray-900 font-inter flex items-center gap-2"><span className="text-gray-400">II.</span> What you will get?</h2>
+            <h2 className="text-base font-medium text-gray-900 flex items-center gap-2"><span className="text-gray-400">II.</span> What you will get?</h2>
           </div>
           <div className="flex flex-col gap-2">
             {DELIVERABLES.map((option) => (
@@ -63,7 +63,7 @@ export const Sidebar = () => {
                 checked={selected.includes(option)}
                 onChange={() => toggleOption(option)}
               >
-                <span className="font-geist-mono">{option}</span>
+                <span>{option}</span>
               </Checkbox>
             ))}
           </div>
@@ -72,16 +72,16 @@ export const Sidebar = () => {
         {/* Delivery time */}
         <div className="mb-6">
           <div className="flex items-start gap-2 mb-2">
-            <span className="text-base font-medium text-gray-900 font-inter flex items-center gap-2"><span className="text-gray-400">III.</span> 5-7 days delivery time</span>
+            <span className="text-base font-medium text-gray-900 flex items-center gap-2"><span className="text-gray-400">III.</span> 5-7 days delivery time</span>
           </div>
-          <p className="text-sm text-gray-600 leading-relaxed font-geist-mono">
+          <p className="text-sm text-gray-600 leading-relaxed">
             Business days are Monday through Friday, excluding Poland public holidays. Due to spikes in demand, some requests could take longer than usual.
           </p>
         </div>
 
         {/* CTA Button */}
         <div className="relative">
-          <RainbowButton className="w-full text-sm font-inter mt-4">
+          <RainbowButton className="w-full mx-auto text-xs mt-4 px-4">
             $999 - Makeover my product
           </RainbowButton>
           <div className="block md:hidden h-px border-t border-dashed border-gray-300 mt-2 mb-0 -mx-6"></div>

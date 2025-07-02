@@ -21,6 +21,7 @@ export default {
 			fontFamily: {
 				'inter': ['Inter Display', 'sans-serif'],
 				'geist-mono': ['Geist Mono', 'monospace'],
+				'open-runde': ['Open Runde', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
