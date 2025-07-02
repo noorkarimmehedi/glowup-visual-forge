@@ -31,9 +31,12 @@ export const Sidebar = () => {
         {/* Header */}
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-7 h-7 text-gray-900" />
-          <h1 className="text-[24px] font-semibold text-gray-900">
-            Makeovers Crafting Beautiful Stuff for Beautiful "Souls".
-          </h1>
+          <div className="flex flex-col gap-0">
+            <h1 className="text-[22px] font-semibold text-gray-900 leading-tight">
+              Makeovers Crafting Beautiful
+            </h1>
+            <span className="text-[25px] text-gray-900 leading-tight">Stuff for Beautiful "Souls".</span>
+          </div>
         </div>
 
         {/* Why section */}
