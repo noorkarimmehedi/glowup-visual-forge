@@ -6,7 +6,7 @@ import React, { useState } from "react";
 const DELIVERABLES = [
   "Make your brand pop (new color palette)",
   "Roast/Redesign of your landing page",
-  "Redesign of 1-2 screens of your app",
+  "Redesign the Design systems",
 ];
 
 export const Sidebar = () => {
@@ -31,8 +31,8 @@ export const Sidebar = () => {
         {/* Header */}
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-7 h-7 text-gray-900" />
-          <h1 className="text-xl font-normal text-gray-900">
-            <span className="italic">makeovers</span> <span className="text-gray-400">of parts.its.tools</span>
+          <h1 className="text-[24px] font-semibold text-gray-900">
+            Makeovers Crafting Beautiful Stuff for Beautiful "Souls".
           </h1>
         </div>
 
@@ -70,7 +70,7 @@ export const Sidebar = () => {
             <span className="text-base font-medium text-gray-900 flex items-center gap-2"><span className="text-gray-400">III.</span> 5-7 days delivery time</span>
           </div>
           <p className="text-sm text-gray-600 leading-relaxed">
-            Business days are Monday through Friday, excluding Poland public holidays. Due to spikes in demand, some requests could take longer than usual.
+            Business days are Monday through Friday, excluding London public holidays. Due to spikes in demand, some requests could take longer than usual.
           </p>
         </div>
 

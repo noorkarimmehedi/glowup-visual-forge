@@ -1,7 +1,7 @@
 export const Gallery = () => {
   return (
-    <div className="bg-gray-50 p-2 md:p-4">
-      <div className="max-w-7xl mx-auto space-y-2 md:space-y-4">
+    <div className="p-2 md:p-0">
+      <div className="space-y-2 md:space-y-4">
         {/* Psychology section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
