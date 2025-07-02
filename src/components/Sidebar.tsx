@@ -21,7 +21,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="font-open-runde min-h-screen md:h-full bg-white pl-4 pr-6 md:px-8 md:pr-12 py-8 flex flex-col justify-between">
+    <div className="font-open-runde min-h-screen md:h-full bg-white pl-3 pr-6 md:px-8 md:pr-12 py-8 flex flex-col gap-16 justify-between">
       {/* Top Section - Empty for now */}
       <div>
       </div>
@@ -30,9 +30,9 @@ export const Sidebar = () => {
       <div className="w-full max-w-lg mx-auto md:max-w-none">
         {/* Header */}
         <div className="mb-4 flex flex-col items-start gap-1.5">
-          <Logo className="w-5 h-5 text-gray-900" />
+          <Logo className="w-7 h-7 text-gray-900" />
           <h1 className="text-xl font-normal text-gray-900">
-            makeover <span className="text-gray-400">of parts.its.tools</span>
+            makeovers <span className="text-gray-400">of parts.its.tools</span>
           </h1>
         </div>
 
@@ -41,13 +41,8 @@ export const Sidebar = () => {
           <div className="flex items-start gap-2 mb-2">
             <h2 className="text-base font-medium text-gray-900 flex items-center gap-2"><span className="text-gray-400">I.</span> Why?</h2>
           </div>
-          <p className="text-gray-700 mb-2 font-medium text-sm">You've got a great product.</p>
-          <p className="text-gray-700 text-sm">Let's make sure your <span className="font-bold">visuals match.</span></p>
-        </div>
-
-        <div className="mb-4">
           <p className="text-gray-700 text-sm leading-relaxed">
-            Makeover gives your logo, site, app a glow-up that turns heads (and converts).
+            Makeovers partner with founders and startups to create high-converting, meaningful and purpose-driven design for users.
           </p>
         </div>
 
@@ -84,7 +79,6 @@ export const Sidebar = () => {
           <RainbowButton className="w-full mx-auto text-xs mt-4 px-4">
             $999 - Makeover my product
           </RainbowButton>
-          <div className="block md:hidden h-px border-t border-dashed border-gray-300 mt-2 mb-0 -mx-6"></div>
         </div>
       </div>
     </div>

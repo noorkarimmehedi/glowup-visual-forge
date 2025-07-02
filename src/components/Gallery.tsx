@@ -3,20 +3,20 @@ export const Gallery = () => {
     <div className="bg-gray-50 p-2 md:p-4">
       <div className="max-w-7xl mx-auto space-y-2 md:space-y-4">
         {/* Psychology section */}
-        <div className="bg-white rounded-2xl p-0 md:p-0 shadow-sm overflow-hidden aspect-[4/3] flex items-center justify-center mt-0">
+        <div className="bg-[#ffffff] rounded-md">
           <img 
             src="/my-image-01.png" 
             alt="Gallery Visual" 
-            className="w-full h-full object-cover rounded-xl shadow-md"
+            className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
 
         {/* Typography showcase */}
-        <div className="bg-lavender rounded-2xl p-0 md:p-0 shadow-sm overflow-hidden aspect-[4/3] flex items-center justify-center">
+        <div className="bg-[#ffffff] rounded-md">
           <img 
             src="/my-image-02.png" 
             alt="Typography Visual" 
-            className="w-full h-full object-cover rounded-xl shadow-md"
+            className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
 
@@ -48,7 +48,6 @@ export const Gallery = () => {
           </div>
           <div className="flex items-center gap-3 md:gap-4">
             <div className="text-2xl md:text-4xl font-bold text-navy">Parts</div>
-            <div className="text-xs text-gray-500">Made in Framer</div>
           </div>
         </div>
       </div>
