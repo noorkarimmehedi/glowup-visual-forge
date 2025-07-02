@@ -21,7 +21,7 @@ export const Sidebar = () => {
   };
 
   return (
-    <div className="font-open-runde min-h-screen md:h-full bg-white pl-3 pr-6 md:px-8 md:pr-12 py-8 flex flex-col gap-16 justify-between">
+    <div className="font-open-runde min-h-screen md:h-full bg-white px-2 md:px-8 md:pr-12 py-8 flex flex-col gap-16 justify-between">
       {/* Top Section - Empty for now */}
       <div>
       </div>
@@ -32,7 +32,7 @@ export const Sidebar = () => {
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-7 h-7 text-gray-900" />
           <h1 className="text-xl font-normal text-gray-900">
-            makeovers <span className="text-gray-400">of parts.its.tools</span>
+            <span className="italic">makeovers</span> <span className="text-gray-400">of parts.its.tools</span>
           </h1>
         </div>
 
