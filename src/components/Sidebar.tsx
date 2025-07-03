@@ -32,10 +32,10 @@ export const Sidebar = () => {
         <div className="mb-4 flex flex-col items-start gap-1.5">
           <Logo className="w-7 h-7 text-gray-900" />
           <div className="flex flex-col gap-0">
-            <h1 className="text-[22px] font-semibold text-gray-900 leading-tight">
+            <h1 className="text-xl font-semibold text-gray-900 leading-tight">
               Makeovers Crafting Beautiful
             </h1>
-            <span className="text-[25px] text-gray-900 leading-tight">Stuff for Beautiful "Souls".</span>
+            <span className="text-2xl text-gray-900 leading-tight">Stuff for Beautiful "Souls".</span>
           </div>
         </div>
 
