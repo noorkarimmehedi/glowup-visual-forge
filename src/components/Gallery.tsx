@@ -14,8 +14,26 @@ export const Gallery = () => {
         {/* Typography showcase */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-02.png" 
+            src="/my-image-04.png" 
             alt="Typography Visual" 
+            className="w-full h-full object-cover rounded-md shadow-md"
+          />
+        </div>
+
+        {/* Third image section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <img 
+            src="/my-image-03.png" 
+            alt="Gallery Visual 3" 
+            className="w-full h-full object-cover rounded-md shadow-md"
+          />
+        </div>
+
+        {/* Fourth image section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <img 
+            src="/my-image-05.png" 
+            alt="Gallery Visual 4" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
