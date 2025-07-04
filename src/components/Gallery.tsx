@@ -5,7 +5,7 @@ export const Gallery = () => {
         {/* Psychology section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-01.png" 
+            src="/my-image-01.webp" 
             alt="Gallery Visual" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -14,7 +14,7 @@ export const Gallery = () => {
         {/* Typography showcase */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-04.png" 
+            src="/my-image-04.webp" 
             alt="Typography Visual" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -23,7 +23,7 @@ export const Gallery = () => {
         {/* Third image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-03.png" 
+            src="/my-image-03.webp" 
             alt="Gallery Visual 3" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -32,7 +32,7 @@ export const Gallery = () => {
         {/* Fourth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-05.png" 
+            src="/my-image-05.webp" 
             alt="Gallery Visual 4" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
