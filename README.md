@@ -4,6 +4,8 @@
 
 **URL**: https://lovable.dev/projects/665dfa3d-8959-48d8-a5a9-e770621df1cb
 
+**Last Updated**: July 6, 2025 - Gallery updated with new images and layout improvements
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
