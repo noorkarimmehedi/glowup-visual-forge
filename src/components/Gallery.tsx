@@ -41,10 +41,33 @@ export const Gallery = () => {
         {/* Fifth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-iamge-06.webp" 
+            src="/my-image-07.webp" 
             alt="Gallery Visual 5" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
+        </div>
+
+        {/* Sixth image section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <img 
+            src="/my-iamge-06.webp" 
+            alt="Gallery Visual 6" 
+            className="w-full h-full object-cover rounded-md shadow-md"
+          />
+        </div>
+
+        {/* Video section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <video 
+            src="/my-video.mp4" 
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="w-full h-full object-cover rounded-md shadow-md"
+          >
+            Your browser does not support the video tag.
+          </video>
         </div>
 
         {/* Quote section */}
@@ -52,18 +75,25 @@ export const Gallery = () => {
           <h2 className="text-2xl md:text-3xl font-light mb-4">If music be the food of love, play on.</h2>
           <p className="text-base md:text-lg font-light mb-6">Be not afraid of greatness.</p>
           <p className="text-sm opacity-90 mb-8">Some are born great, some achieve greatness and some have greatness thrust upon them.</p>
-          <button className="bg-white text-coral px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-colors">
-            Join Founding Circle
-          </button>
+          <a href="https://cal.com/noor-foumnf/15min" target="_blank" rel="noopener noreferrer">
+            <button className="bg-white text-coral px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-colors">
+              Book Your Slot!
+            </button>
+          </a>
         </div>
 
-        {/* Color palette */}
-        <div className="grid grid-cols-3 md:grid-cols-5 gap-3 md:gap-4">
-          <div className="h-24 md:h-32 bg-coral rounded-lg"></div>
-          <div className="h-24 md:h-32 bg-teal rounded-lg"></div>
-          <div className="h-24 md:h-32 bg-lavender rounded-lg"></div>
-          <div className="h-24 md:h-32 bg-navy rounded-lg"></div>
-          <div className="h-24 md:h-32 bg-sage rounded-lg"></div>
+        {/* Image section */}
+        <div className="bg-[#ffffff] rounded-md relative">
+          <img 
+            src="/F3gZWEqX0AwYpJp.webp" 
+            alt="Background Image" 
+            className="w-full h-64 md:h-[32rem] object-cover rounded-md shadow-md"
+          />
+          <img 
+            src="/imgi_51_678aaf5fa6566867d7c1e23c_Off-Menu_Walsh_Gif_FlyingCar-ezgif.com-gif-to-webp-converter-p-500.webp" 
+            alt="Flying Car" 
+            className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-96 md:h-96 object-contain"
+          />
         </div>
 
         {/* Bottom color dots and branding */}
