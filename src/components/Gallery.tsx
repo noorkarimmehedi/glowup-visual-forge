@@ -38,6 +38,15 @@ export const Gallery = () => {
           />
         </div>
 
+        {/* Fifth image section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <img 
+            src="/my-iamge-06.webp" 
+            alt="Gallery Visual 5" 
+            className="w-full h-full object-cover rounded-md shadow-md"
+          />
+        </div>
+
         {/* Quote section */}
         <div className="bg-coral rounded-2xl p-6 md:p-8 text-white shadow-sm">
           <h2 className="text-2xl md:text-3xl font-light mb-4">If music be the food of love, play on.</h2>
