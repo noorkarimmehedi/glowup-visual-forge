@@ -3,9 +3,10 @@ import { Checkbox } from "@/components/ui/checkbox";
 import React, { useState } from "react";
 
 const DELIVERABLES = [
-  "Make your brand pop (new color palette)",
-  "Roast/Redesign of your landing page",
-  "Redesign the Design systems",
+  "Shopify Store development",
+  "Development Custom website",
+  "Development/Redesign landing page",
+  "Development/Redesign the Design systems",
 ];
 
 export const Sidebar = () => {
@@ -40,7 +41,7 @@ export const Sidebar = () => {
         {/* Why section */}
         <div className="mb-4">
           <div className="flex items-start gap-2 mb-2">
-            <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">I.</span> Why?</h2>
+            <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">I.</span> WHAT?</h2>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">
             Off-design partner with founders and startups to create high-converting, meaningful and purpose-driven design for users.
@@ -50,7 +51,7 @@ export const Sidebar = () => {
         {/* What you will get section */}
         <div className="mb-4">
           <div className="flex items-start gap-2 mb-2">
-            <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">II.</span> What you will get?</h2>
+            <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">II.</span> WHAT DO WE OFFER?</h2>
           </div>
           <div className="flex flex-col gap-2">
             {DELIVERABLES.map((option) => (
@@ -77,7 +78,7 @@ export const Sidebar = () => {
 
         {/* CTA Button */}
         <div className="relative flex flex-col gap-3 mt-4">
-          <a href="https://cal.com/noor-foumnf/15min3" target="_blank" rel="noopener noreferrer" className="w-full">
+          <a href="https://cal.com/noor-foumnf/15min" target="_blank" rel="noopener noreferrer" className="w-full">
             <RainbowButton className="w-full text-xs px-4 py-3">
               Book a Free Audit Call
             </RainbowButton>
