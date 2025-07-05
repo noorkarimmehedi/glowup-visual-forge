@@ -32,7 +32,7 @@ export const Gallery = () => {
         {/* Fourth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-05.webp" 
+            src="/Gtf-9FWWAAEL1s.webp" 
             alt="Gallery Visual 4" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -41,7 +41,7 @@ export const Gallery = () => {
         {/* Fifth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-07.webp" 
+            src="/my-image-05.webp" 
             alt="Gallery Visual 5" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -50,7 +50,7 @@ export const Gallery = () => {
         {/* Sixth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-iamge-06.webp" 
+            src="/my-image-07.webp" 
             alt="Gallery Visual 6" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -59,8 +59,17 @@ export const Gallery = () => {
         {/* Seventh image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-08.webp" 
+            src="/my-iamge-06.webp" 
             alt="Gallery Visual 7" 
+            className="w-full h-full object-cover rounded-md shadow-md"
+          />
+        </div>
+
+        {/* Eighth image section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <img 
+            src="/my-image-08.webp" 
+            alt="Gallery Visual 8" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
