@@ -8,6 +8,8 @@
 
 **Deployment Status**: Ready for Vercel deployment
 
+**Version**: 2.0 - Enhanced gallery and improved UI
+
 ## About Off-Design
 
 Off-Design partners with founders and startups to create high-converting, meaningful and purpose-driven design for users. We offer:
@@ -16,6 +18,13 @@ Off-Design partners with founders and startups to create high-converting, meanin
 - Development Custom website
 - Development/Redesign landing page
 - Development/Redesign the Design systems
+
+## Recent Updates
+
+- ✅ Added new gallery images for enhanced visual appeal
+- ✅ Implemented responsive design improvements
+- ✅ Updated branding and service descriptions
+- ✅ Optimized layout for better user experience
 
 ## How can I edit this code?
 
