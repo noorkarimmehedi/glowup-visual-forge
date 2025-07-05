@@ -29,11 +29,10 @@ export const Sidebar = () => {
       <div className="w-full max-w-lg mx-auto md:max-w-none">
         {/* Header */}
         <div className="mb-4 flex flex-col items-start gap-1.5">
-          <img src="/imgi_1_logo.png" alt="Logo" className="w-10 h-10 text-gray-900" />
           <div className="flex flex-col gap-0">
             <h1 className="text-[18px] font-semibold text-gray-900 leading-tight uppercase">
-              Makeovers Crafting Beautiful
-          </h1>
+              Off-design Crafting Beautiful
+            </h1>
             <span className="text-[20px] text-gray-900 leading-tight uppercase">Stuff for Beautiful "Souls".</span>
           </div>
         </div>
@@ -44,7 +43,7 @@ export const Sidebar = () => {
             <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">I.</span> Why?</h2>
           </div>
           <p className="text-gray-700 text-sm leading-relaxed">
-            Makeovers partner with founders and startups to create high-converting, meaningful and purpose-driven design for users.
+            Off-design partner with founders and startups to create high-converting, meaningful and purpose-driven design for users.
           </p>
         </div>
 
@@ -78,7 +77,7 @@ export const Sidebar = () => {
 
         {/* CTA Button */}
         <div className="relative flex flex-col gap-3 mt-4">
-          <a href="https://cal.com/noor-foumnf/15min" target="_blank" rel="noopener noreferrer" className="w-full">
+          <a href="https://cal.com/noor-foumnf/15min3" target="_blank" rel="noopener noreferrer" className="w-full">
             <RainbowButton className="w-full text-xs px-4 py-3">
               Book a Free Audit Call
             </RainbowButton>
