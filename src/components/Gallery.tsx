@@ -56,18 +56,13 @@ export const Gallery = () => {
           />
         </div>
 
-        {/* Video section */}
+        {/* Seventh image section */}
         <div className="bg-[#ffffff] rounded-md">
-          <video 
-            src="/my-video.mp4" 
-            autoPlay
-            muted
-            loop
-            playsInline
+          <img 
+            src="/my-image-08.webp" 
+            alt="Gallery Visual 7" 
             className="w-full h-full object-cover rounded-md shadow-md"
-          >
-            Your browser does not support the video tag.
-          </video>
+          />
         </div>
 
         {/* Quote section */}
