@@ -60,12 +60,14 @@ export const Gallery = () => {
         {/* Bottom color dots and branding */}
         <div className="flex items-center justify-between bg-white rounded-2xl p-4 md:p-6 shadow-sm">
           <div className="flex items-center gap-3 md:gap-4">
-            <div className="w-6 md:w-8 h-6 md:h-8 bg-coral rounded-full"></div>
-            <div className="w-6 md:w-8 h-6 md:h-8 bg-teal rounded-star transform rotate-12" style={{clipPath: 'polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%)'}}></div>
-            <div className="w-6 md:w-8 h-6 md:h-8 bg-lavender rounded-lg transform rotate-45"></div>
+            <div className="text-2xl md:text-4xl font-bold text-navy">OFF-DESIGN</div>
           </div>
           <div className="flex items-center gap-3 md:gap-4">
-            <div className="text-2xl md:text-4xl font-bold text-navy">Parts</div>
+            <img 
+              src="/imgi_1_VJV5gSNbkcz7AdLESCPRkV5WFk.png" 
+              alt="Logo" 
+              className="h-8 md:h-12 w-auto animate-spin-fast"
+            />
           </div>
         </div>
       </div>
