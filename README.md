@@ -1,10 +1,21 @@
-# Welcome to your Lovable project
+# Off-Design - Visual Design Service
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/665dfa3d-8959-48d8-a5a9-e770621df1cb
 
 **Last Updated**: July 6, 2025 - Gallery updated with new images and layout improvements
+
+**Deployment Status**: Ready for Vercel deployment
+
+## About Off-Design
+
+Off-Design partners with founders and startups to create high-converting, meaningful and purpose-driven design for users. We offer:
+
+- Shopify Store development
+- Development Custom website
+- Development/Redesign landing page
+- Development/Redesign the Design systems
 
 ## How can I edit this code?
 
