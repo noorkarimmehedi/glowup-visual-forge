@@ -43,17 +43,17 @@ export const Sidebar = () => {
           <div className="flex items-start gap-2 mb-2">
             <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">I.</span> WHAT?</h2>
           </div>
-          <p className="text-gray-700 text-sm leading-relaxed">
+          <p className="text-xs text-gray-700 leading-relaxed">
             Off-design partner with founders and startups to create high-converting, meaningful and purpose-driven design for users.
           </p>
         </div>
 
         {/* What you will get section */}
-        <div className="mb-4">
+        <div className="mb-0">
           <div className="flex items-start gap-2 mb-2">
             <h2 className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">II.</span> WHAT DO WE OFFER?</h2>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-1">
             {DELIVERABLES.map((option) => (
               <Checkbox
                 key={option}
@@ -66,18 +66,37 @@ export const Sidebar = () => {
           </div>
         </div>
 
-        {/* Delivery time */}
-        <div className="mb-6">
-          <div className="flex items-start gap-2 mb-2">
-            <span className="text-sm font-medium text-gray-900 flex items-center gap-2 uppercase"><span className="text-gray-400">III.</span> 5-7 days delivery time</span>
+        {/* SVG Images Section */}
+        <div className="mb-0">
+          <div className="flex items-center gap-3 mb-0">
+            <img 
+              src="/download (3).svg" 
+              alt="Icon 3" 
+              className="w-[5rem] h-[5rem] opacity-60"
+            />
+            <img 
+              src="/download (1).svg" 
+              alt="Icon 1" 
+              className="w-[4.5rem] h-[4.5rem] opacity-60"
+            />
+            <img 
+              src="/download (2).svg" 
+              alt="Icon 2" 
+              className="w-[3rem] h-[3rem] opacity-60"
+            />
           </div>
-          <p className="text-sm text-gray-600 leading-relaxed">
-            Business days are Monday through Friday, excluding London public holidays. Due to spikes in demand, some requests could take longer than usual.
-          </p>
+          <div className="space-y-2">
+            <p className="text-xs text-gray-700 leading-relaxed">
+              "Off-design" has—and still—partners with some of the most successful founders in the world after only launching in 2024.
+            </p>
+            <p className="text-sm text-gray-500 pb-4">
+              © Off-design
+            </p>
+          </div>
         </div>
 
         {/* CTA Button */}
-        <div className="relative flex flex-col gap-3 mt-4">
+        <div className="relative flex flex-col gap-3 mt-1">
           <a href="https://cal.com/noor-foumnf/15min" target="_blank" rel="noopener noreferrer" className="w-full">
             <RainbowButton className="w-full text-xs px-4 py-3">
               Book a Free Audit Call
