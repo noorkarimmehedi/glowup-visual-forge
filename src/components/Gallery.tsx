@@ -2,20 +2,20 @@ export const Gallery = () => {
   return (
     <div className="p-2 md:p-0">
       <div className="space-y-2 md:space-y-4">
-        {/* Psychology section */}
+        {/* First image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-01.webp" 
-            alt="Gallery Visual" 
+            src="/my-image-09.webp" 
+            alt="Gallery Visual 1" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
 
-        {/* Typography showcase */}
+        {/* Second image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-04.webp" 
-            alt="Typography Visual" 
+            src="/my-image-01.webp" 
+            alt="Gallery Visual 2" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
@@ -23,7 +23,7 @@ export const Gallery = () => {
         {/* Third image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-03.webp" 
+            src="/my-image-04.webp" 
             alt="Gallery Visual 3" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -32,7 +32,7 @@ export const Gallery = () => {
         {/* Fourth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/Gtf-9FWWAAEL1s.webp" 
+            src="/my-image-03.webp" 
             alt="Gallery Visual 4" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -41,7 +41,7 @@ export const Gallery = () => {
         {/* Fifth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-05.webp" 
+            src="/Gtf-9FWWAAEL1s.webp" 
             alt="Gallery Visual 5" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -50,7 +50,7 @@ export const Gallery = () => {
         {/* Sixth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-07.webp" 
+            src="/my-image-05.webp" 
             alt="Gallery Visual 6" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -59,7 +59,7 @@ export const Gallery = () => {
         {/* Seventh image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-iamge-06.webp" 
+            src="/my-image-07.webp" 
             alt="Gallery Visual 7" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
@@ -68,8 +68,17 @@ export const Gallery = () => {
         {/* Eighth image section */}
         <div className="bg-[#ffffff] rounded-md">
           <img 
-            src="/my-image-08.webp" 
+            src="/my-iamge-06.webp" 
             alt="Gallery Visual 8" 
+            className="w-full h-full object-cover rounded-md shadow-md"
+          />
+        </div>
+
+        {/* Ninth image section */}
+        <div className="bg-[#ffffff] rounded-md">
+          <img 
+            src="/my-image-08.webp" 
+            alt="Gallery Visual 9" 
             className="w-full h-full object-cover rounded-md shadow-md"
           />
         </div>
